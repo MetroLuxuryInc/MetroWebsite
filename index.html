@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Metro Luxury Inc.</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(
+          circle at top,
+          #17365d 0%,
+          #07111f 45%,
+          #02060c 100%
+        );
+      color: white;
+    }
+
+    .page {
+      width: 100%;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .logo-card {
+      width: min(90%, 650px);
+      margin: 0 auto;
+      padding: 45px 30px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.06);
+      box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.45),
+        0 0 35px rgba(0, 174, 239, 0.15);
+    }
+
+    .logo {
+      display: block;
+      width: 240px;
+      max-width: 80%;
+      height: auto;
+      margin: 0 auto 25px;
+      filter:
+        drop-shadow(0 10px 20px rgba(0, 174, 239, 0.25));
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 6vw, 52px);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .tagline {
+      margin: 14px 0 0;
+      font-size: clamp(16px, 3vw, 21px);
+      color: #d7eaff;
+      line-height: 1.5;
+    }
+
+    .accent-line {
+      width: 90px;
+      height: 4px;
+      margin: 24px auto 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #00aeef, #0071bc);
+    }
+
+    @media (max-width: 500px) {
+      .logo-card {
+        padding: 35px 20px;
+      }
+
+      .logo {
+        width: 190px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="logo-card">
+
+      <img
+        class="logo"
+        src="logo.png"
+        alt="Metro Luxury Inc. Logo"
+      >
+
+      <h1>Metro Luxury Inc.</h1>
+
+      <p class="tagline">
+        More than transportation, partners in your health.
+      </p>
+
+      <div class="accent-line"></div>
+
+    </section>
+  </main>
+</body>
+</html>
