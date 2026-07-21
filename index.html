@@ -1,60 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metro Luxury</title>
 
-    <title>Metro Luxury Inc.</title>
+<style>
+html, body{
+    margin:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#06182c;
+}
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #02111f, #0b2d4f);
-            overflow: hidden;
-        }
-
-        img {
-            width: 320px;
-            max-width: 80%;
-            height: auto;
-            animation: float 3s ease-in-out infinite;
-            filter:
-                drop-shadow(0 0 20px rgba(0, 174, 239, .6))
-                drop-shadow(0 0 40px rgba(0, 174, 239, .3));
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-12px);
-            }
-
-            100% {
-                transform: translateY(0px);
-            }
-        }
-    </style>
+img{
+    width:300px;
+    max-width:80%;
+    height:auto;
+}
+</style>
 
 </head>
 
 <body>
 
-    <img src="logo.png" alt="Metro Luxury Logo">
+<img src="logo.png" alt="Metro Luxury Logo">
 
 </body>
-
 </html>
